@@ -6,7 +6,7 @@
 // import DwSiteCompV6 from '../views/dw-survey-v6/dw-collect-v6/DwSiteCompV6.vue'
 // import DwSiteShareV6 from '../views/dw-survey-v6/dw-collect-v6/DwSiteShareV6.vue'
 
-const DwAnswerWeixin = () => import(/* webpackChunkName: "dwsurvey-survey-collect" */ '../views/dw-survey/dw-collect/DwAnswerWeixin')
+// const DwAnswerWeixin = () => import(/* webpackChunkName: "dwsurvey-survey-collect" */ '../views/dw-survey/dw-collect/DwAnswerWeixin')
 const DwSurveyAnswerDataListV6 = () => import(/* webpackChunkName: "dwsurvey-survey-collect" */ '../views/dw-survey-v6/dw-data-v6/DwSurveyAnswerDataListV6.vue')
 const DwAnswerUrlV6 = () => import(/* webpackChunkName: "dwsurvey-survey-collect" */ '../views/dw-survey-v6/dw-collect-v6/DwAnswerUrlV6')
 const DwSurveyChartsV6 = () => import(/* webpackChunkName: "dwsurvey-survey-data" */ '../views/dw-survey-v6/dw-data-v6/DwSurveyChartsV6.vue')
@@ -40,10 +40,10 @@ const routesSurveyChildren = [
     path: 'survey/c/share/:dwSurveyId',
     component: DwSiteShareV6
   },
-  {
-    path: 'survey/c/weixin/:dwSurveyId',
-    component: DwAnswerWeixin
-  },
+  // {
+  //   path: 'survey/c/weixin/:dwSurveyId',
+  //   component: DwAnswerWeixin
+  // },
   {
     path: 'survey/d/chart/:dwSurveyId',
     meta: {
